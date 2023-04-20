@@ -1,74 +1,34 @@
-<p align="center">
-  <img src="https://i.imgur.com/LtUGnF3.png" width=500 />
-</p>
+# client
 
-<div align="center">
-  <a href="https://github.com/sundowndev/phoneinfoga/actions">
-    <img src="https://github.com/sundowndev/phoneinfoga/workflows/Build/badge.svg" alt="build status" />
-  </a>
-  <a href="https://goreportcard.com/report/github.com/sundowndev/phoneinfoga/v2">
-    <img src="https://goreportcard.com/badge/github.com/sundowndev/phoneinfoga/v2" alt="go report" />
-  </a>
-  <a href="https://codeclimate.com/github/sundowndev/phoneinfoga/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/3259feb1c68df1cd4f71/maintainability" />
-  </a>
-  <a href='https://coveralls.io/github/sundowndev/phoneinfoga'>
-    <img src='https://coveralls.io/repos/github/sundowndev/phoneinfoga/badge.svg' alt='Coverage Status' />
-  </a>
-  <a href="https://github.com/sundowndev/phoneinfoga/releases">
-    <img src="https://img.shields.io/github/release/SundownDEV/phoneinfoga.svg" alt="Latest version" />
-  </a>
-</div>
+## Project setup
+```
+yarn install
+```
 
-<h4 align="center">Advanced information gathering & OSINT framework for phone numbers</h4>
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-<p align="center">
-  <a href="https://sundowndev.github.io/phoneinfoga/">Documentation</a> •
-  <a href="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml">API documentation</a> •
-  <a href="https://demo.phoneinfoga.crvx.fr/">Demo instance</a> •
-  <a href="https://medium.com/@SundownDEV/phone-number-scanning-osint-recon-tool-6ad8f0cac27b">Related blog post</a>
-</p>
+### Compiles and minifies for production
+```
+yarn build
+```
 
-![](./docs/images/screenshot.png)
+### Run your unit tests
+```
+yarn test:unit
+```
 
-## About
+### Run your end-to-end tests
+```
+yarn test:e2e
+```
 
-PhoneInfoga is one of the most advanced tools to scan international phone numbers. It allows you to first gather basic information such as country, area, carrier and line type, then use various techniques to try to find the VoIP provider or identify the owner. It works with a collection of scanners that must be configured in order for the tool to be effective. PhoneInfoga doesn't automate everything, it's just there to help investigating on phone numbers.
+### Lints and fixes files
+```
+yarn lint
+```
 
-## Current status
-
-This project is stable and production-ready.
-
-:warning: However, we're working on a new UI and API version, so new features are only released for the CLI at this time.
-
-**About demo instance**: This is a test service. Kittens will die if you abuse it.
-
-## Features
-
-- Check if phone number exists
-- Gather basic information such as country, line type and carrier
-- OSINT footprinting using external APIs, phone books & search engines
-- Check for reputation reports, social media, disposable numbers and more
-- Use the graphical user interface to run scans from the browser
-- Programmatic usage with the [REST API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml) and [Go modules](https://pkg.go.dev/github.com/sundowndev/phoneinfoga/v2)
-
-## Anti-features
-
-- Does not claim to provide relevant or verified data, it's just a tool !
-- Does not allow to "track" a phone or its owner in real time
-- Does not allow to get the precise phone location
-- Does not allow to hack a phone
-
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsundowndev%2FPhoneInfoga.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsundowndev%2FPhoneInfoga?ref=badge_shield)
-
-This tool is licensed under the GNU General Public License v3.0.
-
-[Icon](https://www.flaticon.com/free-icon/fingerprint-search-symbol-of-secret-service-investigation_48838) made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
-
-## Support
-
-[![](docs/jetbrains.svg)](https://www.jetbrains.com/?from=sundowndev)
-
-Thanks to [JetBrains](https://www.jetbrains.com/?from=sundowndev) for supporting my open-source projects.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
