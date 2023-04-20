@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/images/banner.png" width=500  alt="project logo"/>
+  <img src="https://i.imgur.com/LtUGnF3.png" width=500 />
 </p>
 
 <div align="center">
@@ -10,7 +10,7 @@
     <img src="https://goreportcard.com/badge/github.com/sundowndev/phoneinfoga/v2" alt="go report" />
   </a>
   <a href="https://codeclimate.com/github/sundowndev/phoneinfoga/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/3259feb1c68df1cd4f71/maintainability"  alt="code climate badge"/>
+    <img src="https://api.codeclimate.com/v1/badges/3259feb1c68df1cd4f71/maintainability" />
   </a>
   <a href='https://coveralls.io/github/sundowndev/phoneinfoga'>
     <img src='https://coveralls.io/repos/github/sundowndev/phoneinfoga/badge.svg' alt='Coverage Status' />
@@ -18,18 +18,18 @@
   <a href="https://github.com/sundowndev/phoneinfoga/releases">
     <img src="https://img.shields.io/github/release/SundownDEV/phoneinfoga.svg" alt="Latest version" />
   </a>
-  <a href="https://hub.docker.com/r/sundowndev/phoneinfoga">
-    <img src="https://img.shields.io/docker/pulls/sundowndev/phoneinfoga.svg" alt="Docker pulls" />
-  </a>
 </div>
 
-<h4 align="center">Information gathering framework for phone numbers</h4>
+<h4 align="center">Advanced information gathering & OSINT framework for phone numbers</h4>
 
 <p align="center">
   <a href="https://sundowndev.github.io/phoneinfoga/">Documentation</a> •
   <a href="https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml">API documentation</a> •
+  <a href="https://demo.phoneinfoga.crvx.fr/">Demo instance</a> •
   <a href="https://medium.com/@SundownDEV/phone-number-scanning-osint-recon-tool-6ad8f0cac27b">Related blog post</a>
 </p>
+
+![](./docs/images/screenshot.png)
 
 ## About
 
@@ -39,7 +39,9 @@ PhoneInfoga is one of the most advanced tools to scan international phone number
 
 This project is stable and production-ready.
 
-You can try out the web client or REST API on the <a href="https://demo.phoneinfoga.crvx.fr/">demo instance</a>. **This is a test service**. Kittens will die if you abuse it. Most of scanners are not configured so you won't get relevant results.
+:warning: However, we're working on a new UI and API version, so new features are only released for the CLI at this time.
+
+**About demo instance**: This is a test service. Kittens will die if you abuse it.
 
 ## Features
 
@@ -67,6 +69,6 @@ This tool is licensed under the GNU General Public License v3.0.
 
 ## Support
 
-<div align="center">
-  <img src="https://github.com/sundowndev/static/raw/main/sponsors.svg?v=c68eba9" width="100%" heigh="auto" />
-</div>
+[![](docs/jetbrains.svg)](https://www.jetbrains.com/?from=sundowndev)
+
+Thanks to [JetBrains](https://www.jetbrains.com/?from=sundowndev) for supporting my open-source projects.
